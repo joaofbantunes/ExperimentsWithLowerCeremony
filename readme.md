@@ -34,6 +34,7 @@ For example the project structure wasn't something I gave tremendous thought. My
 
 - Don't create multiple projects, this doesn't make the difference that folks think it does
     - If one wants to enforce some structure, one can use something like [ArchUnitNET](https://github.com/TNG/ArchUnitNET)
-- Keep related things relatively close, instead of spread into too many folders
+- Keep related things relatively close, instead of spread into too many folders and projects
+    - This might mean in close folders, or even in the same file, as long as things are cohesive together (and we don't create giant, unmanageable files), we should keep them together 
 
 Other than that, things got into the place they are a bit organically, but I'm pretty sure that when I try this in an actual project, or at least give things more thought, things are probably gonna be moved around a bit.
