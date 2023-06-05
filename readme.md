@@ -17,7 +17,7 @@ Loose things I was thinking with these experiments:
 - While still using common tactical patterns, reduce a bit the ceremony, in particular around having related code spread around multiple projects
 - Reduce some indirections when they don't add value, include them if they do (i.e. separate command handler from the API endpoint code?)
 - Make use of some approaches typically more associated with functional programming, like making better use of the type system, relying less on exceptions and using explicit domain errors, pure functions, etc
-- Try to minimize, even if slightly wasteful infrastructure usage
+- Try to minimize, even if slightly, wasteful infrastructure usage
 - Further get rid of tactical patters, while still maintaining domain and infrastructure separation, in order to create more streamlined and performance optimized solutions
 
 Following these ideas, created some example API projects to test things out:
